@@ -65,6 +65,10 @@
     -fx-background-image: url("Icon/SettingBackground.jpg");
 }
 
+#gameAnchorPane {
+    -fx-background-color: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+}
+
 .text-area {
     /* Shadow effect */
     -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 5.0, 5.0);

@@ -30,6 +30,7 @@ import com.jfoenix.controls.JFXToggleButton;
 import com.app.dictionaryapp.DataAccessLayer.Object;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
+import org.controlsfx.control.PropertySheet.Mode;
 
 public class BusinessLogic {
 
@@ -51,6 +52,9 @@ public class BusinessLogic {
     private AnchorPane miniSettingPane;
     @FXML
     private ScrollPane displaySuggest;
+
+    @FXML
+    private AnchorPane gameAnchorPane;
 
 
     // Button
@@ -276,7 +280,7 @@ public class BusinessLogic {
 
         // set editPane, suggestionWordTableView, displayWordSound, webView visible false
         List<Node> nodes = new ArrayList<>();
-        Collections.addAll(nodes, editPane, suggestionWordTableView, displayWordSound, webView);
+        Collections.addAll(nodes, editPane, suggestionWordTableView, displayWordSound, webView, gameAnchorPane);
         setVisibleFalse(nodes);
     }
 
@@ -294,6 +298,7 @@ public class BusinessLogic {
         textTranslation.setVisible(false);
         editPane.setVisible(false);
         settingPane.setVisible(false);
+        gameAnchorPane.setVisible(false);
 
         // set editable
         txtFieldSearch.setEditable(true);
@@ -319,23 +324,30 @@ public class BusinessLogic {
 
         // set displayWordSound, webView, textTranslation, editPane visible false
         List<Node> nodes = new ArrayList<>();
-        Collections.addAll(nodes, displayWordSound, webView, textTranslation, editPane);
+        Collections.addAll(nodes, displayWordSound, webView, textTranslation, editPane, gameAnchorPane);
         setVisibleFalse(nodes);
     }
 
     // Games Button
     @FXML
     void gamesAction(ActionEvent e) {
-        Platform.runLater(new Runnable() {
-            public void run() {
-                try {
-                    Stage newstage = (Stage)((Node)e.getSource()).getScene().getWindow();
-                    new HangmanMain().start(newstage);
-                } catch (Exception e) {
-                    throw new RuntimeException(e);
-                }
-            }
-        });
+        mode = MODE.GAMES;
+        gameAnchorPane.setVisible(true);
+
+        List<Node> nodeList = new ArrayList<>();
+        Collections.addAll(nodeList, textTranslation, editPane, settingPane, suggestionWordTableView, displayWordSound,
+            webView);
+        setVisibleFalse(nodeList);
+    }
+
+    @FXML
+    void clickGame1(ActionEvent event) {
+
+    }
+
+    @FXML
+    void clickGame2(ActionEvent event) {
+
     }
 
     // Recent.txt Button
@@ -357,7 +369,7 @@ public class BusinessLogic {
 
         // set displayWordSound, webView, textTranslation, editPane visible false
         List<Node> nodes = new ArrayList<>();
-        Collections.addAll(nodes, displayWordSound, webView, textTranslation, editPane);
+        Collections.addAll(nodes, displayWordSound, webView, textTranslation, editPane, gameAnchorPane);
         setVisibleFalse(nodes);
     }
 
@@ -445,7 +457,7 @@ public class BusinessLogic {
 
         List<Node> nodeList = new ArrayList<>();
         Collections.addAll(nodeList, textTranslation, suggestionWordTableView, displayWordSound,
-            webView);
+            webView, gameAnchorPane);
         setVisibleFalse(nodeList);
 
     }
@@ -645,7 +657,6 @@ public class BusinessLogic {
             }
         }
     }
-
     void saveSystem(File file, String text) throws IOException {
         PrintWriter printWriter = new PrintWriter(file);
         printWriter.write(text);
