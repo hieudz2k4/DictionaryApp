@@ -88,4 +88,19 @@ public class SearchLogic {
             return getDescriptionFromYourDictionary(text);
         }
     }
+
+    public String getDetail(String text) {
+        ResultSet resultSet = database.queryGetData("select description from av where word = '" + text + "'");
+
+        try {
+            if (resultSet.next()) {
+                return resultSet.getString("description");
+            } else {
+                return "";
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+            return "";
+        }
+    }
 }

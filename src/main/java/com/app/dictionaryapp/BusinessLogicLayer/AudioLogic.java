@@ -50,4 +50,10 @@ public class AudioLogic {
     public static AudioLogic getInstance() {
         return instance;
     }
+
+    public void playAudio2(String text) {
+        Media media = new Media(text);
+        MediaPlayer mediaPlayer = new MediaPlayer(media);
+        mediaPlayer.play();
+    }
 }

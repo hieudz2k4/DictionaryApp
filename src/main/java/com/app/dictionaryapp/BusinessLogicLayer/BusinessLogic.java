@@ -1,17 +1,16 @@
 package com.app.dictionaryapp.BusinessLogicLayer;
 
+import Game.HangmanMain;
 import animatefx.animation.*;
 import com.app.dictionaryapp.PresentationLayer.Presentation;
-import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.nio.file.Files;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import javafx.application.Platform;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -30,6 +29,7 @@ import javafx.scene.web.WebView;
 import com.jfoenix.controls.JFXToggleButton;
 import com.app.dictionaryapp.DataAccessLayer.Object;
 import javafx.stage.FileChooser;
+import javafx.stage.Stage;
 
 public class BusinessLogic {
 
@@ -325,8 +325,17 @@ public class BusinessLogic {
 
     // Games Button
     @FXML
-    void gamesAction(ActionEvent event) {
-
+    void gamesAction(ActionEvent e) {
+        Platform.runLater(new Runnable() {
+            public void run() {
+                try {
+                    Stage newstage = (Stage)((Node)e.getSource()).getScene().getWindow();
+                    new HangmanMain().start(newstage);
+                } catch (Exception e) {
+                    throw new RuntimeException(e);
+                }
+            }
+        });
     }
 
     // Recent.txt Button

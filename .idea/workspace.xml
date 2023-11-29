@@ -5,7 +5,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27d5082d-b2f1-4f51-a982-13a95348dd5a" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Game/AnimatedImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Game/HangmanMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Game/Menug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Game/Shark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Game/Style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Game/WordReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Game/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Game/words.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game/Speaker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game/Style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game/back2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game/check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game/cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game/duoicamap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game/logout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game/peterandship.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game/peterandship1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game/play-button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game/rotate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game/s1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game/s2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game/s3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game/s4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game/s5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game/s6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game/score.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game/sea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game/seabeaunew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game/sky.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game/sky2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game/swimming2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game/swimming3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game/swimming4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game/swimming5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game/thancamap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game/undo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game/wave - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game/wave.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game/waves.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game/what-is-this.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game/words.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/dictionaryapp/BusinessLogicLayer/AudioLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/dictionaryapp/BusinessLogicLayer/AudioLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/dictionaryapp/BusinessLogicLayer/BusinessLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/dictionaryapp/BusinessLogicLayer/BusinessLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/dictionaryapp/BusinessLogicLayer/SearchLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/dictionaryapp/BusinessLogicLayer/SearchLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/dictionaryapp/DataAccessLayer/Txt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/dictionaryapp/DataAccessLayer/Txt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +62,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
-        <option value="Class" />
         <option value="CSS File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -41,38 +87,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;database.data.extractors.current.export.id&quot;: &quot;SQL Inserts&quot;,
-    &quot;database.data.extractors.current.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/macbook/Desktop/Tài Liệu/OOP/ItellijProject/DictionaryApp/src/main/resources/com/app/dictionaryapp/PresentationLayer/Audio&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.10834235&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.40639699&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "database.data.extractors.current.export.id": "SQL Inserts",
+    "database.data.extractors.current.id": "Comma-separated (CSV)_id",
+    "last_opened_file_path": "/Users/macbook/Desktop/Tài Liệu/OOP/ItellijProject/DictionaryApp/src/main/resources/Game",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.10834235",
+    "project.structure.side.proportion": "0.40639699",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.app.dictionaryapp.PresentationLayer" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/Game" />
       <recent name="$PROJECT_DIR$/src/main/resources/com/app/dictionaryapp/PresentationLayer/Audio" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -244,6 +291,7 @@
       <workItem from="1700706326303" duration="1488000" />
       <workItem from="1700798523611" duration="3057000" />
       <workItem from="1700825127727" duration="6853000" />
+      <workItem from="1701100174513" duration="2930000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -288,7 +336,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/app/dictionaryapp/BusinessLogicLayer/BusinessLogic.java</url>
-          <line>502</line>
+          <line>511</line>
           <properties class="com.app.dictionaryapp.BusinessLogicLayer.BusinessLogic" method="clickStarToMark">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -297,7 +345,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/app/dictionaryapp/BusinessLogicLayer/BusinessLogic.java</url>
-          <line>511</line>
+          <line>520</line>
           <properties class="com.app.dictionaryapp.BusinessLogicLayer.BusinessLogic" method="clickStarToUnMark">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -306,7 +354,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/app/dictionaryapp/BusinessLogicLayer/BusinessLogic.java</url>
-          <line>444</line>
+          <line>453</line>
           <properties class="com.app.dictionaryapp.BusinessLogicLayer.BusinessLogic" method="addBtnEdit">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -333,7 +381,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/app/dictionaryapp/BusinessLogicLayer/BusinessLogic.java</url>
-          <line>342</line>
+          <line>351</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

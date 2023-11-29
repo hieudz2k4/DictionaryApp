@@ -66,7 +66,7 @@ public class Txt {
         return contentList;
     }
 
-    void deleteAll() {
+    public void deleteAll() {
         try {
             PrintWriter pw = new PrintWriter(file);
             pw.close();
@@ -74,5 +74,16 @@ public class Txt {
         } catch (Exception e) {
             return;
         }
+    }
+
+    public String read1() {
+        String ans = "";
+        try (Scanner scanner = new Scanner(file)) {
+            ans = scanner.nextLine();
+        } catch (Exception e) {
+            System.out.println("loi");
+            e.printStackTrace();
+        }
+        return ans;
     }
 }
