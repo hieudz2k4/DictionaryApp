@@ -49,7 +49,7 @@ public class HangmanMain extends Application {
 
   //private String word = "ANDEPTRAIVCL";
 
-  private static final int APP_W = 1198;
+  private static final int APP_W = 1200;
   private static final int APP_H = 800;
   private static final Font DEFAULT_FONT = new Font("Courier", 36);
   private static final Font scorefont = new  Font("SansSerif", 24);
@@ -113,7 +113,7 @@ public class HangmanMain extends Application {
   Button buttontest = new Button();
   Button btnAgain = new Button("NEW WORD");
   Button tryAgain = new Button("Try Again");
-  Canvas canvas = new Canvas(1100,800);
+  Canvas canvas = new Canvas(1200,800);
   AudioLogic al = AudioLogic.getInstance();
   Button soundipa = new Button();
   Menug mng = new Menug(0);

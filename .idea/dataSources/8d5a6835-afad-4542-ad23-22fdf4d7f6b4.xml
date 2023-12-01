@@ -1073,139 +1073,171 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="311" parent="289" name="va">
+    <table id="311" parent="289" name="game2">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <column id="312" parent="307" name="idx">
+    <table id="312" parent="289" name="va">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <column id="313" parent="307" name="idx">
       <DasType>int|0s</DasType>
       <Position>1</Position>
     </column>
-    <column id="313" parent="307" name="word">
+    <column id="314" parent="307" name="word">
       <DasType>varchar(255)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="314" parent="307" name="detail">
+    <column id="315" parent="307" name="detail">
       <DasType>longtext|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="315" parent="308" name="word">
+    <column id="316" parent="308" name="word">
       <DasType>varchar(255)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="316" parent="308" name="description">
+    <column id="317" parent="308" name="description">
       <DasType>text|0s</DasType>
       <Position>2</Position>
     </column>
-    <index id="317" parent="308" name="PRIMARY">
+    <index id="318" parent="308" name="PRIMARY">
       <ColNames>word</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="318" parent="308" name="PRIMARY">
+    <key id="319" parent="308" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="319" parent="309" name="id">
+    <column id="320" parent="309" name="id">
       <AutoIncrement>108855</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="320" parent="309" name="word">
+    <column id="321" parent="309" name="word">
       <DasType>text|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="321" parent="309" name="html">
+    <column id="322" parent="309" name="html">
       <DasType>text|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="322" parent="309" name="description">
+    <column id="323" parent="309" name="description">
       <DasType>text|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="323" parent="309" name="pronounce">
+    <column id="324" parent="309" name="pronounce">
       <DasType>text|0s</DasType>
       <Position>5</Position>
     </column>
-    <index id="324" parent="309" name="PRIMARY">
+    <index id="325" parent="309" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="325" parent="309" name="avWordIndex">
+    <index id="326" parent="309" name="avWordIndex">
       <ColNames>word</ColNames>
       <PrefixLengths>255</PrefixLengths>
       <Type>btree</Type>
     </index>
-    <key id="326" parent="309" name="PRIMARY">
+    <key id="327" parent="309" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="327" parent="310" name="id">
-      <AutoIncrement>108855</AutoIncrement>
+    <column id="328" parent="310" name="id">
+      <AutoIncrement>108854</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="328" parent="310" name="word">
+    <column id="329" parent="310" name="word">
       <DasType>text|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="329" parent="310" name="html">
+    <column id="330" parent="310" name="html">
       <DasType>text|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="330" parent="310" name="description">
+    <column id="331" parent="310" name="description">
       <DasType>text|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="331" parent="310" name="pronounce">
+    <column id="332" parent="310" name="pronounce">
       <DasType>text|0s</DasType>
       <Position>5</Position>
     </column>
-    <index id="332" parent="310" name="PRIMARY">
+    <index id="333" parent="310" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="333" parent="310" name="avWordIndex">
+    <index id="334" parent="310" name="avWordIndex">
       <ColNames>word</ColNames>
       <PrefixLengths>255</PrefixLengths>
       <Type>btree</Type>
     </index>
-    <key id="334" parent="310" name="PRIMARY">
+    <key id="335" parent="310" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="335" parent="311" name="id">
+    <column id="336" parent="311" name="id">
+      <DasType>int|0s</DasType>
+      <Position>1</Position>
+    </column>
+    <column id="337" parent="311" name="question">
+      <DasType>text|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="338" parent="311" name="ans1">
+      <DasType>text|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="339" parent="311" name="ans2">
+      <DasType>text|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="340" parent="311" name="ans3">
+      <DasType>text|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="341" parent="311" name="ans4">
+      <DasType>text|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="342" parent="311" name="rans">
+      <DasType>int|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="343" parent="312" name="id">
       <AutoIncrement>23437</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="336" parent="311" name="word">
+    <column id="344" parent="312" name="word">
       <DasType>text|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="337" parent="311" name="html">
+    <column id="345" parent="312" name="html">
       <DasType>text|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="338" parent="311" name="description">
+    <column id="346" parent="312" name="description">
       <DasType>text|0s</DasType>
       <Position>4</Position>
     </column>
-    <index id="339" parent="311" name="PRIMARY">
+    <index id="347" parent="312" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="340" parent="311" name="PRIMARY">
+    <key id="348" parent="312" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>

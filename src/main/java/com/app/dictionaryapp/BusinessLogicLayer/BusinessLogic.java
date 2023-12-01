@@ -1,6 +1,7 @@
 package com.app.dictionaryapp.BusinessLogicLayer;
 
 import Game.HangmanMain;
+import Game2.Main;
 import animatefx.animation.*;
 import com.app.dictionaryapp.PresentationLayer.Presentation;
 import java.io.File;
@@ -30,7 +31,6 @@ import com.jfoenix.controls.JFXToggleButton;
 import com.app.dictionaryapp.DataAccessLayer.Object;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
-import org.controlsfx.control.PropertySheet.Mode;
 
 public class BusinessLogic {
 
@@ -342,12 +342,30 @@ public class BusinessLogic {
 
     @FXML
     void clickGame1(ActionEvent event) {
-
+        Platform.runLater(new Runnable() {
+            public void run() {
+                try {
+                    Stage newstage = (Stage)((Node)event.getSource()).getScene().getWindow();
+                    new HangmanMain().start(newstage);
+                } catch (Exception e) {
+                    throw new RuntimeException(e);
+                }
+            }
+        });
     }
 
     @FXML
     void clickGame2(ActionEvent event) {
-
+        Platform.runLater(new Runnable() {
+            public void run() {
+                try {
+                    Stage newstage = (Stage)((Node)event.getSource()).getScene().getWindow();
+                    new Main().start(newstage);
+                } catch (Exception e) {
+                    throw new RuntimeException(e);
+                }
+            }
+        });
     }
 
     // Recent.txt Button

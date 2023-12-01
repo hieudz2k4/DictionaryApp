@@ -18,10 +18,6 @@
     -fx-background-color: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
 }
 
-#gameAnchorPane {
-    -fx-background-color: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
-}
-
 .btn {
     -fx-background-color: #023b6d;
 }
@@ -152,6 +148,9 @@
     -fx-font-size : 20px;
 }
 
-.label {
+#suggestionWordTableView.label {
     -fx-text-fill: #131625;
+}
+#mainPane {
+    -fx-background-color: white;
 }

@@ -5,12 +5,65 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27d5082d-b2f1-4f51-a982-13a95348dd5a" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Game2/Content.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Game2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Game2/Menug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Game2/QuestionBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Game2/SearchData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/dictionaryapp/PresentationLayer/Presentation2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/2. Kowloon Monsoon.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/Style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/back3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/bu1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/bu10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/bu11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/bu12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/bu13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/bu14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/bu2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/bu3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/bu4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/bu5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/bu6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/bu7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/bu8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/bu9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/car.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/car1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/car10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/car11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/car2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/car3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/car4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/car5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/car6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/car7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/car8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/car9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/logout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/meaat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/play-button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/road3.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/road3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/road4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/score.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/shit (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/sm1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/sm2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/sm3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/sm4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/sm5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/sm6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Game2/sm7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d5a6835-afad-4542-ad23-22fdf4d7f6b4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8d5a6835-afad-4542-ad23-22fdf4d7f6b4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Game/HangmanMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/HangmanMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Game/Menug.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/Menug.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/dictionaryapp/BusinessLogicLayer/AudioLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/dictionaryapp/BusinessLogicLayer/AudioLogic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/app/dictionaryapp/BusinessLogicLayer/BusinessLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/dictionaryapp/BusinessLogicLayer/BusinessLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/app/dictionaryapp/PresentationLayer/DarkMode.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/app/dictionaryapp/PresentationLayer/DarkMode.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/app/dictionaryapp/PresentationLayer/LightMode.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/app/dictionaryapp/PresentationLayer/LightMode.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/app/dictionaryapp/PresentationLayer/Txt/Favorites.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/app/dictionaryapp/PresentationLayer/Txt/Favorites.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/app/dictionaryapp/PresentationLayer/Txt/Recent.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/app/dictionaryapp/PresentationLayer/Txt/Recent.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/app/dictionaryapp/PresentationLayer/index.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/app/dictionaryapp/PresentationLayer/index.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,13 +108,13 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;database.data.extractors.current.export.id&quot;: &quot;SQL Inserts&quot;,
     &quot;database.data.extractors.current.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/macbook/Desktop/Tài Liệu/OOP/ItellijProject/DictionaryApp/src/main/resources/Game&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/macbook/Desktop/Tài Liệu/OOP/ItellijProject/DictionaryApp/src/main/resources/Game2&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.10834235&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.40639699&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;,
@@ -78,6 +131,7 @@
       <recent name="com.app.dictionaryapp.PresentationLayer" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/Game2" />
       <recent name="$PROJECT_DIR$/src/main/resources/Game" />
       <recent name="$PROJECT_DIR$/src/main/resources/com/app/dictionaryapp/PresentationLayer/Audio" />
     </key>
@@ -252,7 +306,14 @@
       <workItem from="1700825127727" duration="6853000" />
       <workItem from="1701100174513" duration="2930000" />
       <workItem from="1701235889794" duration="223000" />
-      <workItem from="1701239683275" duration="1954000" />
+      <workItem from="1701239683275" duration="5131000" />
+      <workItem from="1701314471692" duration="175000" />
+      <workItem from="1701318040929" duration="32000" />
+      <workItem from="1701319810218" duration="1294000" />
+      <workItem from="1701329667757" duration="947000" />
+      <workItem from="1701332579995" duration="1759000" />
+      <workItem from="1701335961578" duration="882000" />
+      <workItem from="1701336995613" duration="566000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -297,7 +358,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/app/dictionaryapp/BusinessLogicLayer/BusinessLogic.java</url>
-          <line>523</line>
+          <line>541</line>
           <properties class="com.app.dictionaryapp.BusinessLogicLayer.BusinessLogic" method="clickStarToMark">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -306,7 +367,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/app/dictionaryapp/BusinessLogicLayer/BusinessLogic.java</url>
-          <line>532</line>
+          <line>550</line>
           <properties class="com.app.dictionaryapp.BusinessLogicLayer.BusinessLogic" method="clickStarToUnMark">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -315,7 +376,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/app/dictionaryapp/BusinessLogicLayer/BusinessLogic.java</url>
-          <line>465</line>
+          <line>483</line>
           <properties class="com.app.dictionaryapp.BusinessLogicLayer.BusinessLogic" method="addBtnEdit">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -342,7 +403,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/app/dictionaryapp/BusinessLogicLayer/BusinessLogic.java</url>
-          <line>363</line>
+          <line>381</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

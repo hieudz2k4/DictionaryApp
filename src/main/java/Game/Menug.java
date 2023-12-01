@@ -2,6 +2,7 @@ package Game;
 
 import com.app.dictionaryapp.DataAccessLayer.Txt;
 import com.app.dictionaryapp.PresentationLayer.Presentation;
+import com.app.dictionaryapp.PresentationLayer.Presentation2;
 import javafx.application.Platform;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -10,6 +11,7 @@ import javafx.scene.Node;
 import javafx.scene.control.Button;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.StackPane;
 import javafx.scene.paint.Color;
@@ -31,6 +33,7 @@ public class Menug extends StackPane {
   Button newgame = new Button("Start");
   private String line;
   Button exitgame = new Button("exit");
+  Button backButton = new Button();
   BufferedReader reader = null;
   public boolean play = false;
   private Txt txt = new Txt("src/main/resources/Game/score.txt");
@@ -40,7 +43,7 @@ public class Menug extends StackPane {
       public void run() {
         try {
           Stage newstage = (Stage)((Node)e.getSource()).getScene().getWindow();
-          new Presentation().start(newstage);
+          new Presentation2().start(newstage);
         } catch (Exception e) {
           throw new RuntimeException(e);
         }
@@ -63,7 +66,7 @@ public class Menug extends StackPane {
 
 
     rowmenu.setAlignment(Pos.CENTER);
-    rowmenu.getChildren().addAll(newgame, exitgame, textscore);
+    rowmenu.getChildren().addAll(newgame, exitgame,  textscore);
     //bg.setFill(def == "" ? Color.DARKSEAGREEN : Color.RED);
     bg.setHeight(50);
     bg.setWidth(300);
